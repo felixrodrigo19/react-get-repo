@@ -3,9 +3,9 @@ import axios from 'axios'
 
 export default class App extends React.Component {
     state = {
-        data: "",
-        pesquisa: "",
-        resultado: ""
+        data: {},
+        pesquisa: {},
+        resultado: {}
     }
 
     componentDidMount = async () => {
